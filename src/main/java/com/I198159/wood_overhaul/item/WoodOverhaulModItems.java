@@ -19,7 +19,10 @@ public class WoodOverhaulModItems {
     public static final Item CEDAR_WOOD = registerWoodItem(WoodOverhaulModBlocks.CEDAR);
     public static final Item CHERRY_WOOD = registerWoodItem(WoodOverhaulModBlocks.CHERRY);
     public static final Item CYPRESS_WOOD = registerWoodItem(WoodOverhaulModBlocks.CYPRESS);
+    public static final Item EBONY_WOOD = registerWoodItem(WoodOverhaulModBlocks.EBONY);
     public static final Item FIR_WOOD = registerWoodItem(WoodOverhaulModBlocks.FIR);
+    public static final Item IRONWOOD_WOOD = registerWoodItem(WoodOverhaulModBlocks.IRONWOOD);
+    public static final Item MAPLE_WOOD = registerWoodItem(WoodOverhaulModBlocks.MAPLE);
     public static final Item PINE_WOOD = registerWoodItem(WoodOverhaulModBlocks.PINE);
     public static final Item POPLAR_WOOD = registerWoodItem(WoodOverhaulModBlocks.POPLAR);
     public static final Item WALNUT_WOOD = registerWoodItem(WoodOverhaulModBlocks.WALNUT);
