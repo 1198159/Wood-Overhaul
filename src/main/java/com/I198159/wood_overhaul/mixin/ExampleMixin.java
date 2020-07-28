@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin;
+package com.I198159.wood_overhaul.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
