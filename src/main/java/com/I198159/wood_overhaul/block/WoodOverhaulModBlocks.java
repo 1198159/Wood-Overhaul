@@ -1,31 +1,29 @@
 package com.I198159.wood_overhaul.block;
 
-import net.minecraft.block.Block;
-
 public class WoodOverhaulModBlocks {
-    public static final CustomWoodBlock BLACKWOOD;
-    public static final CustomWoodBlock CEDAR;
-    public static final CustomWoodBlock CHERRY;
-    public static final CustomWoodBlock CYPRESS;
-    public static final CustomWoodBlock EBONY;
-    public static final CustomWoodBlock FIR;
-    public static final CustomWoodBlock IRONWOOD;
-    public static final CustomWoodBlock MAPLE;
-    public static final CustomWoodBlock PINE;
-    public static final CustomWoodBlock POPLAR;
-    public static final CustomWoodBlock WALNUT;
+    public static final CustomBlockManager BLACKWOOD;
+    public static final CustomBlockManager CEDAR;
+    public static final CustomBlockManager CHERRY;
+    public static final CustomBlockManager CYPRESS;
+    public static final CustomBlockManager EBONY;
+    public static final CustomBlockManager FIR;
+    public static final CustomBlockManager IRONWOOD;
+    public static final CustomBlockManager MAPLE;
+    public static final CustomBlockManager PINE;
+    public static final CustomBlockManager POPLAR;
+    public static final CustomBlockManager WALNUT;
 
     static {
-        BLACKWOOD = new CustomWoodBlock("blackwood");
-        CEDAR = new CustomWoodBlock("cedar");
-        CHERRY = new CustomWoodBlock("cherry");
-        CYPRESS = new CustomWoodBlock("cypress");
-        EBONY = new CustomWoodBlock("ebony");
-        FIR = new CustomWoodBlock("fir");
-        IRONWOOD = new CustomWoodBlock("ironwood");
-        MAPLE = new CustomWoodBlock("maple");
-        PINE = new CustomWoodBlock("pine");
-        POPLAR = new CustomWoodBlock("poplar");
-        WALNUT = new CustomWoodBlock("walnut");
+        BLACKWOOD = new CustomBlockManager("blackwood");
+        CEDAR = new CustomBlockManager("cedar");
+        CHERRY = new CustomBlockManager("cherry");
+        CYPRESS = new CustomBlockManager("cypress");
+        EBONY = new CustomBlockManager("ebony");
+        FIR = new CustomBlockManager("fir");
+        IRONWOOD = new CustomBlockManager("ironwood");
+        MAPLE = new CustomBlockManager("maple");
+        PINE = new CustomBlockManager("pine");
+        POPLAR = new CustomBlockManager("poplar");
+        WALNUT = new CustomBlockManager("walnut");
     }
 }

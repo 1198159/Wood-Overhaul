@@ -1,6 +1,6 @@
 package com.I198159.wood_overhaul.item;
 
-import com.I198159.wood_overhaul.block.CustomWoodBlock;
+import com.I198159.wood_overhaul.block.CustomBlockManager;
 import com.I198159.wood_overhaul.block.WoodOverhaulModBlocks;
 
 import net.minecraft.block.Block;
@@ -27,9 +27,9 @@ public class WoodOverhaulModItems {
     public static final Item POPLAR_WOOD = registerWoodItem(WoodOverhaulModBlocks.POPLAR);
     public static final Item WALNUT_WOOD = registerWoodItem(WoodOverhaulModBlocks.WALNUT);
 
-    public static Item registerWoodItem(CustomWoodBlock woodBlock){
+    public static Item registerWoodItem(CustomBlockManager woodBlock){
         return register(new Identifier("wood_overhaul", woodBlock.ID +"_wood"),
-                new BlockItem(woodBlock.getWoodBlock(), WOOD_ITEM_SETTINGS));
+                new BlockItem(woodBlock.WOOD, WOOD_ITEM_SETTINGS));
     }
 
     public static void registerItems() {
