@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wood_overhaul:block/maple_slab"
+    },
+    "type=double": {
+      "model": "wood_overhaul:block/maple_planks"
+    },
+    "type=top": {
+      "model": "wood_overhaul:block/maple_slab_top"
+    }
+  }
+}

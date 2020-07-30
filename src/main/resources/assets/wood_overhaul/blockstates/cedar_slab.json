@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wood_overhaul:block/cedar_slab"
+    },
+    "type=double": {
+      "model": "wood_overhaul:block/cedar_planks"
+    },
+    "type=top": {
+      "model": "wood_overhaul:block/cedar_slab_top"
+    }
+  }
+}

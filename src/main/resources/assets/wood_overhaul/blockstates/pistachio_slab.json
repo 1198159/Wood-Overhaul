@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wood_overhaul:block/pistachio_slab"
+    },
+    "type=double": {
+      "model": "wood_overhaul:block/pistachio_planks"
+    },
+    "type=top": {
+      "model": "wood_overhaul:block/pistachio_slab_top"
+    }
+  }
+}

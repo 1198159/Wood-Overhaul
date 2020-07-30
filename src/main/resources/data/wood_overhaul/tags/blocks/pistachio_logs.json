@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wood_overhaul:pistachio_log",
+    "wood_overhaul:pistachio_wood",
+    "wood_overhaul:stripped_pistachio_log",
+    "wood_overhaul:stripped_pistachio_wood"
+  ]
+}

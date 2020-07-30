@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wood_overhaul:walnut_log",
+    "wood_overhaul:walnut_wood",
+    "wood_overhaul:stripped_walnut_log",
+    "wood_overhaul:stripped_walnut_wood"
+  ]
+}

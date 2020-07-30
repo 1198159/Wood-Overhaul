@@ -14,16 +14,19 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/wood_overhaul/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "com.I198159.wood_overhaul.WoodOverhaulMod"
+    ],
+    "client": [
+      "com.I198159.wood_overhaul.WoodOverhaulClientMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "wood_overhaul.mixins.json"
   ],
 
   "depends": {

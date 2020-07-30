@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "wood_overhaul:block/ironwood_planks",
+    "top": "wood_overhaul:block/ironwood_planks",
+    "side": "wood_overhaul:block/ironwood_planks"
+  }
+}

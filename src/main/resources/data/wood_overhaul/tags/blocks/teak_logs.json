@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wood_overhaul:teak_log",
+    "wood_overhaul:teak_wood",
+    "wood_overhaul:stripped_teak_log",
+    "wood_overhaul:stripped_teak_wood"
+  ]
+}

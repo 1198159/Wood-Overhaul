@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "wood_overhaul:block/walnut_leaves"
+  }
+}

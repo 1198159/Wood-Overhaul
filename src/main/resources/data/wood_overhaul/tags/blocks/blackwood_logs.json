@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wood_overhaul:blackwood_log",
+    "wood_overhaul:blackwood_wood",
+    "wood_overhaul:stripped_blackwood_log",
+    "wood_overhaul:stripped_blackwood_wood"
+  ]
+}

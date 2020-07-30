@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "wood_overhaul:block/cypress_sapling"
+  }
+}

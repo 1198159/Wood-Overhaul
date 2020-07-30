@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wood_overhaul:block/cypress_slab"
+    },
+    "type=double": {
+      "model": "wood_overhaul:block/cypress_planks"
+    },
+    "type=top": {
+      "model": "wood_overhaul:block/cypress_slab_top"
+    }
+  }
+}

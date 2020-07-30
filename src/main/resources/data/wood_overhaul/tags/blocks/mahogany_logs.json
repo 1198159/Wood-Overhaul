@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wood_overhaul:mahogany_log",
+    "wood_overhaul:mahogany_wood",
+    "wood_overhaul:stripped_mahogany_log",
+    "wood_overhaul:stripped_mahogany_wood"
+  ]
+}

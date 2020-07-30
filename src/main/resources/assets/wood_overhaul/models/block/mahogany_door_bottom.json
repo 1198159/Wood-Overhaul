@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "wood_overhaul:block/mahogany_door_top",
+    "bottom": "wood_overhaul:block/mahogany_door_bottom"
+  }
+}

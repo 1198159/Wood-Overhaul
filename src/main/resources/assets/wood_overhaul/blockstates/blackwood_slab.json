@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wood_overhaul:block/blackwood_slab"
+    },
+    "type=double": {
+      "model": "wood_overhaul:block/blackwood_planks"
+    },
+    "type=top": {
+      "model": "wood_overhaul:block/blackwood_slab_top"
+    }
+  }
+}

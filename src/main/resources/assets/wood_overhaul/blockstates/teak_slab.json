@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wood_overhaul:block/teak_slab"
+    },
+    "type=double": {
+      "model": "wood_overhaul:block/teak_planks"
+    },
+    "type=top": {
+      "model": "wood_overhaul:block/teak_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "wood_overhaul:block/cypress_door_top",
+    "bottom": "wood_overhaul:block/cypress_door_bottom"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "axis=x": {
+            "model": "wood_overhaul:block/teak_wood",
+            "x": 90,
+            "y": 90
+        },
+        "axis=y": {
+            "model": "wood_overhaul:block/teak_wood"
+        },
+        "axis=z": {
+            "model": "wood_overhaul:block/teak_wood",
+            "x": 90
+        }
+    }
+}

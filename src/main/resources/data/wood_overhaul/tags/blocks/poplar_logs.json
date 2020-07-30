@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wood_overhaul:poplar_log",
+    "wood_overhaul:poplar_wood",
+    "wood_overhaul:stripped_poplar_log",
+    "wood_overhaul:stripped_poplar_wood"
+  ]
+}

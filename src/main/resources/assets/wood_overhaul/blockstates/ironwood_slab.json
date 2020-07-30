@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wood_overhaul:block/ironwood_slab"
+    },
+    "type=double": {
+      "model": "wood_overhaul:block/ironwood_planks"
+    },
+    "type=top": {
+      "model": "wood_overhaul:block/ironwood_slab_top"
+    }
+  }
+}

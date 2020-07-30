@@ -12,41 +12,25 @@ import net.minecraft.util.registry.Registry;
 
 public class WoodOverhaulModItems {
 
-    public static final Item.Settings WOOD_ITEM_SETTINGS = new Item.Settings().maxCount(64)
-            .group(ItemGroup.BUILDING_BLOCKS);
 
-    public static final Item BLACKWOOD_WOOD = registerWoodItem(WoodOverhaulModBlocks.BLACKWOOD);
-    public static final Item CEDAR_WOOD = registerWoodItem(WoodOverhaulModBlocks.CEDAR);
-    public static final Item CHERRY_WOOD = registerWoodItem(WoodOverhaulModBlocks.CHERRY);
-    public static final Item CYPRESS_WOOD = registerWoodItem(WoodOverhaulModBlocks.CYPRESS);
-    public static final Item EBONY_WOOD = registerWoodItem(WoodOverhaulModBlocks.EBONY);
-    public static final Item FIR_WOOD = registerWoodItem(WoodOverhaulModBlocks.FIR);
-    public static final Item IRONWOOD_WOOD = registerWoodItem(WoodOverhaulModBlocks.IRONWOOD);
-    public static final Item MAPLE_WOOD = registerWoodItem(WoodOverhaulModBlocks.MAPLE);
-    public static final Item PINE_WOOD = registerWoodItem(WoodOverhaulModBlocks.PINE);
-    public static final Item POPLAR_WOOD = registerWoodItem(WoodOverhaulModBlocks.POPLAR);
-    public static final Item WALNUT_WOOD = registerWoodItem(WoodOverhaulModBlocks.WALNUT);
+    public static final CustomItemManager BLACKWOOD = new CustomItemManager(WoodOverhaulModBlocks.BLACKWOOD);
+    public static final CustomItemManager CEDAR = new CustomItemManager(WoodOverhaulModBlocks.CEDAR);
+    public static final CustomItemManager CHERRY = new CustomItemManager(WoodOverhaulModBlocks.CHERRY);
+    public static final CustomItemManager CYPRESS = new CustomItemManager(WoodOverhaulModBlocks.CYPRESS);
+    public static final CustomItemManager EBONY = new CustomItemManager(WoodOverhaulModBlocks.EBONY);
+    public static final CustomItemManager FIR = new CustomItemManager(WoodOverhaulModBlocks.FIR);
+    public static final CustomItemManager IRONWOOD = new CustomItemManager(WoodOverhaulModBlocks.IRONWOOD);
+    public static final CustomItemManager KOA = new CustomItemManager(WoodOverhaulModBlocks.KOA);
+    public static final CustomItemManager MAHOGANY = new CustomItemManager(WoodOverhaulModBlocks.MAHOGANY);
+    public static final CustomItemManager MAPLE = new CustomItemManager(WoodOverhaulModBlocks.MAPLE);
+    public static final CustomItemManager OLIVE = new CustomItemManager(WoodOverhaulModBlocks.OLIVE);
+    public static final CustomItemManager PINE = new CustomItemManager(WoodOverhaulModBlocks.PINE);
+    public static final CustomItemManager PISTACHIO = new CustomItemManager(WoodOverhaulModBlocks.PISTACHIO);
+    public static final CustomItemManager POPLAR = new CustomItemManager(WoodOverhaulModBlocks.POPLAR);
+    public static final CustomItemManager TEAK = new CustomItemManager(WoodOverhaulModBlocks.TEAK);
+    public static final CustomItemManager WALNUT = new CustomItemManager(WoodOverhaulModBlocks.WALNUT);
 
-    public static Item registerWoodItem(CustomBlockManager woodBlock){
-        return register(new Identifier("wood_overhaul", woodBlock.ID +"_wood"),
-                new BlockItem(woodBlock.WOOD, WOOD_ITEM_SETTINGS));
-    }
+    public static void registerItems(){
 
-    public static void registerItems() {
-    }
-
-    private static Item register(BlockItem item) {
-        return register(item.getBlock(), item);
-    }
-
-    protected static Item register(Block block, Item item) {
-        return register(Registry.BLOCK.getId(block), item);
-    }
-    private static Item register(Identifier id, Item item) {
-        if (item instanceof BlockItem) {
-            ((BlockItem) item).appendBlocks(Item.BLOCK_ITEMS, item);
-        }
-
-        return Registry.register(Registry.ITEM, id, item);
     }
 }

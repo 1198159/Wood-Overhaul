@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wood_overhaul:block/koa_slab"
+    },
+    "type=double": {
+      "model": "wood_overhaul:block/koa_planks"
+    },
+    "type=top": {
+      "model": "wood_overhaul:block/koa_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "wood_overhaul:block/koa_leaves"
+  }
+}

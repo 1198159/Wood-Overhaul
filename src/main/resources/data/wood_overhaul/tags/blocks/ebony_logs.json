@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wood_overhaul:ebony_log",
+    "wood_overhaul:ebony_wood",
+    "wood_overhaul:stripped_ebony_log",
+    "wood_overhaul:stripped_ebony_wood"
+  ]
+}

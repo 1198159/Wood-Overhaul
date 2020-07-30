@@ -13,6 +13,26 @@ public class CustomSaplingGeneratorManager {
         switch(id){
             case "blackwood":
                 generator = new BlackwoodSaplingGenerator();
+            case "cedar":
+                generator = new CedarSaplingGenerator();
+            case "cherry":
+                generator = new CherrySaplingGenerator();
+            case "cypress":
+                generator = new CypressSaplingGenerator();
+            case "ebony":
+                generator = new EbonySaplingGenerator();
+            case "fir":
+                generator = new FirSaplingGenerator();
+            case "ironwood":
+                generator = new IronwoodSaplingGenerator();
+            case "maple":
+                generator = new MapleSaplingGenerator();
+            case "pine":
+                generator = new PineSaplingGenerator();
+            case "poplar":
+                generator = new PoplarSaplingGenerator();
+            case "walnut":
+                generator = new WalnutSaplingGenerator();
             default:
                 generator = new OakSaplingGenerator();
         }
